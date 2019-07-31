@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, .text--light {
+	color: rgba(0,0,0,0.6);
+}
+
+input.typeahead {
+	width: 135px !important;
+  display: inline-block;
+}
+
+.typeahead.dropdown-menu {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.btn-group {
+	margin-bottom: 0 !important;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.body-container {
+  padding-bottom: 20px;
+}
+
+header {
+	border-bottom: 1px solid #ddd !important;
+}
+
+.header {
+	padding: 18px 18px 0 18px;
+}
+
+.date-container input {
+	width: 98px;
+	padding: 7px;
+}
+
+.date-container, .days-container {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.two-digits {
+	padding: 7px;
+	width: 37px;
+	text-align: center;
+}
+
+.calculate-btn {
+	margin-left: 10px;
+}
+
+.spinner {
+	height: 20px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	display: none;
+}
+
+.spinner.rendered {
+	display: inline-block;
+}
+
+.add {
+  color: green;
+  opacity: 0.65;
+}
+
+.add:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.remove {
+  color: #EF9DA9;
+  opacity: 0.65;
+}
+
+.remove:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.glyphicon-plus {
+  font-size: 14px;
+}

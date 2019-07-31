@@ -1,0 +1,34 @@
+/* Filter styles */
+
+.filters {
+  position: relative;
+  margin-top: 15px;
+  width: 135px;
+}
+
+.add-filter {
+  margin-top: 15px;
+  width: 135px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.remove-filter {
+  position: absolute;
+  top: 9px;
+  right: -25px;
+}
+
+.filter-value {
+  margin-top: 7px;
+}
+
+.filter-value:after {
+  content: " ";
+  background-color: #ccc;
+  width: 1px;
+  height: 8px;
+  position: absolute;
+  left: 50%;
+  top: 33px;
+}

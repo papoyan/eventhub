@@ -1,0 +1,113 @@
+/* Main */
+
+.users-show {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.user-filters, .users-table, .user-show {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user-filters {
+  width: 160px;
+}
+
+.users-table {
+  width: 315px;
+  margin: 0 10px;
+}
+
+.user-show {
+  width: 545px;
+}
+
+.user-filters .add-filter {
+  display: block;
+}
+
+.user-filters .filters-container .filters {
+  display: block;
+}
+
+.user-filters .spinner {
+  position: relative;
+  top: 14px;
+}
+
+.find-users {
+  margin-top: 15px;
+}
+
+.users-table .table, .user-show .table {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.users-table .table tr:hover {
+  cursor: pointer;
+}
+
+.users-table .table td.index {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.users-table, .user-show {
+  display: none;
+}
+
+.users-table.rendered, .user-show.rendered {
+  display: inline-block;
+}
+
+.user-show .user-show--row {
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px rgb(221, 221, 221);
+}
+
+.user-show .user-properties {
+  padding-right: 15px;
+  border-right: 1px solid rgb(221,221,221);
+  margin-right: -1px;
+  max-width: 50%;
+}
+
+.user-show--activity-feed {
+  min-width: 240px;
+  border-left: 1px solid rgb(221,221,221);
+  padding-left: 15px;
+  max-height: 540px;
+  overflow: scroll;
+}
+
+.user-show .user-properties, .user-show .user-show--activity-feed {
+  float: left;
+}
+
+.user-show .activity-feed--title {
+  margin-bottom: 10px;
+}
+
+.activity-feed--title, .user-properties--title {
+  font-style: italic;
+}
+
+.users-table .table-container {
+  max-height: 550px;
+  overflow: scroll;
+  margin-top: 15px;
+}
+
+.user-properties .property-name {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.user-properties .property-value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 15px;
+}
